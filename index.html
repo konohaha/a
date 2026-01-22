@@ -2,23 +2,19 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Teachable Machine 判別</title>
+  <title>Teachable Machine</title>
 </head>
 <body>
-  <h1>判別結果</h1>
 
-  <!-- カメラ映像 -->
-  <div id="webcam-container"></div>
+<h2>判別結果</h2>
 
-  <!-- 判別結果 -->
-  <div id="label-container"></div>
+<div id="webcam-container"></div>
+<div id="label-container"></div>
 
-  <!-- TensorFlow.js -->
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
-  <!-- Teachable Machine Image -->
-  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest"></script>
+<!-- 順番が重要 -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest"></script>
 
-  <!-- 自分のJS -->
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
